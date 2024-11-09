@@ -1,0 +1,50 @@
+{
+    "coefficients": [
+        0.10066278464278744,
+        0.1462600590950525,
+        0.04590290411971718,
+        0.4172754771370892,
+        0.13942175895273068,
+        0.3158981229771035,
+        0.32495223579797916
+    ],
+    "feature_names": [
+        "Age",
+        "Years_of_Experience",
+        "Years_of_Tenure",
+        "experience_ratio",
+        "Gender_Male",
+        "Education_Level_Bachelor's",
+        "Education_Level_Master's"
+    ],
+    "scaler_info": {
+        "features": [
+            "Age",
+            "Years_of_Experience",
+            "Years_of_Tenure",
+            "experience_ratio"
+        ],
+        "bounds": [
+            [
+                21,
+                29
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "salary_scaler": {
+        "min": 4512.5,
+        "max": 11550.0
+    }
+}
